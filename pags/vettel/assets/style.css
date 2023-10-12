@@ -68,9 +68,12 @@ main {
 .flip-card{
     margin: auto;
     min-width: 350px;
-    width: 550px;
+    width: 300px;
     height: 200px;
 
+}
+.flip-card img{
+    width: 350px;
 }
 .flip-card:hover .flip-card-inner{
     transform: rotateY(-180deg);
