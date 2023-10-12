@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+
+
+*{
+    padding: 0;
+}
+body{
+    background-image: url("imagens/senna-bgmain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+nav{
+    margin-top: -5px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.522);
+    text-align: center;
+    font-weight: bold;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover{
+    transition: 0.5s;
+    color: #BF2441;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.content{
+    color: white;
+    margin: auto;
+}
+.content > h1{
+    text-align: center;
+    color: #CA2438;
+}
+.content > h2{
+    text-align: center;
+    font-size: 30px;
+    color: #CA2438;
+}
+.content p{
+    font-size: 20px;
+    text-align: center;
+}
+.content > img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.flip-card{
+    margin: auto;
+    min-width: 350px;
+    width: 300px;
+    height: 200px;
+
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(-180deg);
+}
+.flip-card .flip-card-back{
+    transform: rotateY(180deg);
+}
+
+.flip-card-inner{
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.flip-card-back, .flip-card-front{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #CA2438;
+    height: 35px;
+}
+
+footer p{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
