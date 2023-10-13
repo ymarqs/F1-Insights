@@ -10,13 +10,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-    background-image: linear-gradient(TO bottom, #671322, black);
-    
-    
+    background-color: #f6f6f6;
+    color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 60px;
 }
 nav{
     height: 20px;
@@ -26,7 +25,7 @@ nav{
     font-weight: bold;
 }
 nav a{
-    color: white;
+    color: #f6f6f6;
     text-decoration: none;
     padding: 15px;
 }
@@ -97,18 +96,19 @@ main{
 footer{
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-color: #CA2438;
+    background-color: white;
     height: 35px;
 }
 
 footer p{
     text-align: center;
     justify-content: center;
-    color: white;
+    color: black;
     padding: 5px;
     font-size: 16px;
+    font-weight: 600;
 }
 footer a {
     text-decoration: none;
-    color: white;
+    color: red;
 }
